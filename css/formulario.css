@@ -1,0 +1,136 @@
+
+body {
+   
+    background-color: #cccccc;
+}nav {
+    background-color: #000000;
+    list-style: none;
+    font-weight: 25px;
+}
+.imagens{
+    width: 100%;
+}
+nav ul li a{
+    margin: 15px 20px;
+    color: white ;
+    font-size: 35px;
+    text-decoration: none;   
+} 
+nav ul li a:hover{
+    font-weight: 20px;
+}
+.ul-submenu{
+   display: none;
+}
+form{
+    display:inline-block;
+    margin:5px 50px; 
+}
+label{
+    font-size: 20px;
+}
+#emailValue{
+    margin-bottom: 10px;
+    display:block;
+}
+.formulario{
+    background: rgb(150, 141, 158);
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=password],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+p{
+    margin:10px 0px 5px;
+}
+.sat{
+    margin:10px 0px 5px;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+.botao:hover{
+    cursor: pointer;
+    background:#6979dd;
+    font-size:100%;
+    font-size: 20px;
+}
+.botao{
+    margin: 5px 5px 10px;
+    display: block;
+    background-color: var(--cor-primaria);
+    border-radius:10px;
+    width: 100%;
+    box-sizing: border-box;
+    color:black;
+    font-size:15px;
+    align-self: center;
+    text-align: center;
+}
+.envioform:hover{
+    cursor: pointer;
+    background:#6979dd;
+    font-size:100%;
+    font-size: 20px;
+}
+.envioform{
+    display: block;
+    background-color: var(--cor-primaria);
+    border-radius:10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: var(--cor-contraste-claro);
+    font-size: 15px;
+    align-self: center;
+    text-align: center;
+    margin: 5px 5px
+}
+img{
+    display: inline-block;
+    width:42%;   
+    margin-left: 25px;
+    
+}
+.nivel1{
+    font-size:15px;
+    margin-left:230px;
+    
+}

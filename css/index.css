@@ -1,0 +1,32 @@
+body {
+
+    background-color: #cccccc;
+}nav {
+    background-color: #020202;
+    list-style: none;
+    font-weight: 25px;
+}
+.imagens{
+    width: 100%;
+}
+
+button{
+  
+    cursor: pointer;
+    background:#5467e4;
+    font-size:100%;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input.search{
+    width: 20%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}

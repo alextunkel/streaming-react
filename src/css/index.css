@@ -1,31 +1,54 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+h5,
+h3 {
+    color: #ccc;
+}
+
 body {
-    background-color: #080808fd ;
+    background-color: #080808fd;
 }
+
 nav {
     list-style: none;
     font-size: 25px;
 }
-.img{
-    width: 100%;
+
+article {
+    margin: 0px;
+    float: left;
+    width: 50%;
+    text-align: center;
 }
-button{
+article img {
+    width: 20%;
+    height:auto;
+}
+.img {
+  
+    width:50%;
+   
+}
+
+button {
     color: azure;
     cursor: pointer;
-    background:#5467e4;
+    background: #5467e4;
     font-size: 20px;
     border-radius: 5px;
     border: 1px solid #ccc;
     outline: none;
 }
-button:hover{
-color: rgb(201, 27, 27); 
+
+button:hover {
+    color: rgb(201, 27, 27);
 }
-input.search{
+
+input.search {
     width: 20%;
     padding-left: 10px;
     height: 30px;
@@ -34,19 +57,29 @@ input.search{
     border: 1px solid #ccc;
     outline: none;
 }
-@keyframes animate{
-    0%{transform: rotate(0deg); filter: hue-rotate(0deg);}
-    100%{transform: rotate(360deg);filter: hue-rotate(360deg);}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
 }
-button{
+
+button {
     position: relative;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: linear-gradient(45deg, transparent,transparent 40% ,#e5f403);
+    background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);
     animation: animate 4s linear infinite;
 }
-button:before{
+
+button:before {
     content: "";
     position: absolute;
     top: 6px;
@@ -58,14 +91,15 @@ button:before{
     z-index: 1000;
 
 }
-button::after{
+
+button::after {
     content: "";
     position: absolute;
     top: 0px;
     left: 0px;
     right: 0px;
     bottom: 0px;
-    background:linear-gradient(45deg, transparent,transparent 40%,#e5f403);
+    background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);
     border-radius: 50%;
     z-index: 1000;
     z-index: 1;

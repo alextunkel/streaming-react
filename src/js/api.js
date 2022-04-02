@@ -25,7 +25,7 @@ const exibirDados = (data) => {
      <img src="${filmes.imagem}"/>
      <h5> ${filmes.id}<h5/>
       <h3>${filmes.name}</h3>
-      <link> ${filmes.app}</link>
+      <link>${filmes.app}</link>
     `;
     
     const article = document.querySelector(".filmes")
@@ -34,5 +34,5 @@ const exibirDados = (data) => {
   
   }
 
- event.defaultPrevented();
+ //event.defaultPrevented();
 }
